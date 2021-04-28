@@ -16,7 +16,7 @@ $(function () {
                centerMode: true,
                centerPadding: '50px',
            }
-       }
-       ]
+       }]
     });
+    AOS.init()
 });

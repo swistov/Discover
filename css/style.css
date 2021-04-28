@@ -1,26 +1,26 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-    --green: #59c45a;
-    --white: #fff;
-    --grey: #474747;
-    --darkgrey: #3c3c3c;
-    --lightgrey: #959595;
-    --wrapWidth: 1920px;
-    --contWidth: 1200px;
-    --font: 'Lato', sans-serif;
+  --green: #59c45a;
+  --white: #fff;
+  --grey: #474747;
+  --darkgrey: #3c3c3c;
+  --lightgrey: #959595;
+  --wrapWidth: 1920px;
+  --contWidth: 1200px;
+  --font: 'Lato', sans-serif;
 }
 body {
-    background: var(--white);
-    font-family: var(--font);
+  background: var(--white);
+  font-family: var(--font);
 }
 .wrapper {
-    max-width: var(--wrapWidth);
-    margin: 0 auto;
-
+  max-width: var(--wrapWidth);
+  margin: 0 auto;
+  overflow: hidden;
 }
 .container {
     max-width: var(--contWidth);
